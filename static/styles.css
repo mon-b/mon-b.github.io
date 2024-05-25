@@ -1,65 +1,122 @@
+/* Ok so this is terrible!! I am apologize in advance to anyone who could be reading this. 
+Just like anything good, it was made with coffee at 3 am (not really its 10 pm...) oK BYE */
+
+
 body {
-    margin: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     padding: 0;
-    overflow: hidden;
-    font-size: 18px;
-    background: rgb(46, 31, 58);
+    background: #18141e;
+    color: #dddddd;
 }
 
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('Roboto-Bold.ttf') format('truetype');
-}
-
-.navigation-bar {
-    display: flex;
-    background-color: rgb(245, 207, 255);
-    height: 6%;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+hr {
+    border: 1px solid rgba(242, 179, 255, 0.2); 
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 
-.navigation-bar a {
-    display: block;
-    box-sizing: border-box;
-    color: #f2d3ff;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-.navigation-bar .nav-button {
-    padding-left: 2%;
-    padding-right: 2%;
-    align-content: center;
-    height: 100%;
-    font-size: 12px;
-    color: rgb(99, 53, 137);
-    font-family: 'Roboto-Bold', sans-serif;
+.about-me {
+    margin-top: 2%;
 }
 
-
-.navigation-bar .nav-button:hover {
-    line-height:100%;
-    display: block;
-    text-align: center;
-    
-    background-color: #9fb2f6;
-    color: rgb(255, 255, 255);
+.section-title {
+    display: inline-block;
+    color: #8564ff;
+    font-size: 1.3rem;
+    font-family: "SF Mono", monospace;
 }
 
-.container {
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 60%;
-    height: 80vh;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
+.section-subtitle {
+    display: inline-block;
+    color: #f0ecff;
+    font-size: 0.8rem;
+    font-family: "SF Mono", monospace;
 }
+
+.me {
+    display: inline-block;
+    font-size: 3rem;
+    font-family: "Roboto Regular", sans-serif;
+
+    color: #f0ecff;
+}
+
+.about {
+    display: inline-block;
+    font-family: "SF Mono", monospace;
+    font-size: 1rem;
+    padding: 0.2rem;
+    background-color: rgb(195, 175, 233);
+    color: #18141e;
+    line-height: 1.5;
+}
+
 
 .content {
-    background-color: rgb(145, 102, 168);
+    text-align: justify;
+    font-family: "SF Mono", monospace;
+    font-size: 1rem;
+    margin-top: 0.5%;
+    line-height: 1.8;
+    color: #f0ecff;
+}
+
+.about-me-text {
+    width: 100%;
+}
+
+.areas-of-interest {
+    align-items: left;
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+
+.badge {
+    background-color: #a953ff;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.badge a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
     color: white;
+}
+
+
+#sparkleStyle {
+    z-index: 1000;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.star:hover {
+    opacity: 0;
+}
+
+.contact {
     text-align: center;
+}
+
+.github-logo {
+    height: 6vh; 
+}
+
+.spotify-logo {
+    height: 5.2vh; 
+}
+.mail-logo {
+    height: 5.6vh; 
 }
