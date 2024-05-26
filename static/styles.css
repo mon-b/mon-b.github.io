@@ -1,4 +1,4 @@
-/* Ok so this is terrible!! I am apologize in advance to anyone who could be reading this. 
+/* Ok so this is terrible!! I apologize in advance to anyone who could be reading this. 
 Just like anything good, it was made with coffee at 3 am (not really its 10 pm...) oK BYE */
 
 
@@ -43,17 +43,6 @@ hr {
     color: #f0ecff;
 }
 
-.about {
-    display: inline-block;
-    font-family: "SF Mono", monospace;
-    font-size: 1rem;
-    padding: 0.2rem;
-    background-color: rgb(195, 175, 233);
-    color: #18141e;
-    line-height: 1.5;
-}
-
-
 .content {
     text-align: justify;
     font-family: "SF Mono", monospace;
@@ -65,12 +54,6 @@ hr {
 
 .about-me-text {
     width: 100%;
-}
-
-.areas-of-interest {
-    align-items: left;
-    width: 100%;
-    margin-top: 1.5%;
 }
 
 
@@ -86,37 +69,12 @@ hr {
     color: white;
 }
 
-
-#sparkleStyle {
-    z-index: 1000;
-    position: relative;
-}
-
-.star {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 1;
-    transition: opacity 1s linear;
-}
-
-.star:hover {
-    opacity: 0;
-}
-
 .contact {
     text-align: center;
 }
 
-.github-logo {
-    height: 6vh; 
+.logo {
+    height: 5.5vh; 
+    min-height: 30px;
 }
 
-.spotify-logo {
-    height: 5.2vh; 
-}
-.mail-logo {
-    height: 5.6vh; 
-}
