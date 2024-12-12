@@ -3,8 +3,8 @@ Just like anything good, it was made with coffee at 3 am (not really its 10 pm..
 
 
 body {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 0;
     background: #18141e;
     color: #dddddd;
@@ -24,7 +24,7 @@ hr {
 .section-title {
     display: inline-block;
     color: #8564ff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "SF Mono", monospace;
 }
 
@@ -37,16 +37,16 @@ hr {
 
 .me {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Roboto Regular", sans-serif;
 
     color: #f0ecff;
 }
 
-.content {
+.content  {
     text-align: justify;
     font-family: "SF Mono", monospace;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 0.5%;
     line-height: 1.8;
     color: #f0ecff;
@@ -63,11 +63,17 @@ hr {
     margin-right: 1%;
 }
 
+.about-me-text .badge{
+  margin-right: 0;
+}
+
 .badge a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
     color: white;
 }
+
+
 
 .contact {
     text-align: center;
@@ -78,3 +84,6 @@ hr {
     min-height: 30px;
 }
 
+.badge-group {
+  text-align: left;
+}
